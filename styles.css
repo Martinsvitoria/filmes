@@ -1,20 +1,20 @@
 body {
-    color: white;
-    background: black;
+    color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 header {
-    border-bottom: solid 2px rgb(231, 17, 17);
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(240, 0, 0);
+    border-bottom: solid 2px rgb(253, 0, 0);
+    padding: 25px;
+    font-size: 35px;
+    color: rgb(255, 2, 2);
 }
 
 .chamada {
-    background: rgb(189, 16, 16);
+    background: rgb(202, 13, 13);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -22,15 +22,15 @@ header {
 }
 
 .chamada-texto {
-    margin-right: 5%;
+    margin-right: 05%;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 43px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .categoria-videos {
@@ -52,15 +52,25 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid rgb(255, 8, 8);
+    border: 4px solid rgb(131, 2, 2);
 }
 
 .categoria h2 {
-    color: rgb(216, 32, 32);
+    color: rgb(226, 0, 0);
 }
-.categoria h3 {
-    color:rgb(255, 0, 0);
+
+.categoria h3{
+    color: aquamarine;
 }
-.categoria h4 {
-    color:rgb(255, 0, 0);
+
+.categoria h4{
+    color: blue;
+}
+
+.categoria h5{
+    color: blueviolet;
+}
+
+.categoria h6{
+    color: brown;
 }
